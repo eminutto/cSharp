@@ -8,9 +8,20 @@ namespace Wildcards
         {
             WildcardsClass wc = new WildcardsClass();
 
-            Console.WriteLine(wc.Wildcards("*** kkk"));
+            Console.WriteLine(wc.Wildcards("$**+* 9mmmrrrkbb"));
 
             Console.WriteLine(wc.WildcardCharacters("++++ kkjk"));
+
+            Console.Write(helloWorld());
+
         }
+
+        public static string helloWorld()
+        {
+            return "hello world";
+        }
+
+
+
     }
 }
